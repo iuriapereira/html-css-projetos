@@ -63,6 +63,7 @@ menu > ul {
 menu > ul > li > a {
     display: block;
     padding: 10px;
+    margin-bottom: 3px;
     font-weight: bolder;
     text-decoration: none;
     text-align: center;
