@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pe-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita voluptates modi inventore vero quaerat natus exercitationem, repellat cum in reprehenderit non qui tempora! Fugit neque tempore voluptas rem earum in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias consequuntur, repellat dicta numquam autem sed unde mollitia, id, fuga error obcaecati? Sunt molestiae praesentium, tenetur accusamus iusto ducimus repellendus accusantium?</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita voluptates modi inventore vero quaerat natus exercitationem, repellat cum in reprehenderit non qui tempora! Fugit neque tempore voluptas rem earum in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias consequuntur, repellat dicta numquam autem sed unde mollitia, id, fuga error obcaecati? Sunt molestiae praesentium, tenetur accusamus iusto ducimus repellendus accusantium?</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita voluptates modi inventore vero quaerat natus exercitationem, repellat cum in reprehenderit non qui tempora! Fugit neque tempore voluptas rem earum in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias consequuntur, repellat dicta numquam autem sed unde mollitia, id, fuga error obcaecati? Sunt molestiae praesentium, tenetur accusamus iusto ducimus repellendus accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quis molestias quasi facilis est sed consectetur assumenda recusandae eligendi eveniet nisi, modi et explicabo? Odit, velit? Voluptatum autem laborum quam.</p>
+
+        </article>
+    </main>
+
+    <footer>
+        <p>Site criado por IURI PEREIRA</p>
+    </footer>
+
+    <script>
+        function clickMenu() {
+            if(itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
